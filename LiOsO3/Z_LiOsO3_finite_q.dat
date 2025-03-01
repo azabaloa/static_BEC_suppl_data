@@ -1,0 +1,30 @@
+# First column  : N, where NxNxN is the number of k points used in the calculations
+#
+# \Omega is the volume of the unit cell (\Omega = 362.467 bohr^3)
+# \rho^{(1,\beta)}_{\kappa\alpha} is the long-wavelength expansion of the electronic 
+# contribution to the charge response to a phonon (\kappa\alpha), at first order in q_\beta
+#
+# Second  column : \Omega * \rho^{(1,\alpha)}_{Li \alpha}
+# Third   column : \Omega * \rho^{(1,\alpha)}_{Os \alpha}
+# Fourth  column : \Omega * \rho^{(1,\alpha)}_{O1 \alpha}
+# Fifth   column : \Omega * \rho^{(1,\alpha)}_{O2 \alpha}
+# Sixth   column : \Omega * \rho^{(1,\alpha)}_{O3 \alpha}
+# Seventh column : \Omega * \rho^{(1,\alpha)}_{\alpha} = 
+#                  \Omega * \sum_{\kappa} \rho^{(1,\alpha)}_{\kappa\alpha}
+# Eighth  column : \sum_\kappa (\Omega*\rho^{(1,\alpha)}_{\kappa\alpha} + Z_\kappa)
+#
+# \rho^{(1,\alpha)}_{\kappa\alpha} is obtained from finite q calculations,\rho^{q}_{\kappa\alpha},
+# and subsequently taking numerical derivatives to obtain its q derivative.
+#
+# Z_\kappa = pseudocharge of ion \kappa
+#
+8    -1.128980   -5.253339   -6.138314   -6.138390   -5.188882   -23.847905   13.152095
+10   -1.034684   -4.122490   -5.930198   -5.930195   -4.690229   -21.707795   15.292205
+12   -1.036951   -4.237621   -5.912149   -5.913459   -4.520904   -21.621084   15.378916
+14   -1.054073   -4.407594   -5.980443   -5.980303   -4.624801   -22.047214   14.952786
+16   -1.049675   -4.355126   -5.956897   -5.957188   -4.645300   -21.964187   15.035813
+18   -1.047069   -4.338135   -5.950252   -5.950143   -4.618613   -21.904213   15.095787
+20   -1.048478   -4.357509   -5.954988   -5.954484   -4.620904   -21.936363   15.063637
+24   -1.048420   -4.347968   -5.954392   -5.953575   -4.623182   -21.927537   15.072463
+28   -1.048534   -4.353280   -5.954997   -5.953916   -4.623967   -21.934693   15.065307
+32   -1.047794   -4.353037   -5.954612   -5.953300   -4.623206   -21.931948   15.068052

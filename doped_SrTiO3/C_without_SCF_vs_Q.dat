@@ -1,0 +1,17 @@
+# Results for the capacitance (C) of doped SrTiO3, for different values of electron (or hole) doping
+#
+# First  column : Q = electron doping, Q=-1 means that the system is simulated 
+#                 with an extra electron per unit cell
+# Second column : C without SCF, via DFPT
+#
+-0.1000   -0.618107   
+-0.0750   -0.616803   
+-0.0500   -0.615264   
+-0.0250   -0.613198   
+-0.0125   -0.611595   
+ 0.0000    0.000000   
+ 0.0125   -0.530767   
+ 0.0250   -0.530166   
+ 0.0500   -0.529372   
+ 0.0750   -0.528778   
+ 0.1000   -0.528281   

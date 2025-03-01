@@ -1,0 +1,21 @@
+# Results for doped SrTiO3, for different values of electron (or hole) doping
+#
+# First  column : Q = electron doping, Q=-1 means that the system is simulated 
+#                 with an extra electron per unit cell
+# Second column : \mu^{\eta_{\alpha\alpha}} = derivative of Fermi level (\mu) wrt strain (\eta) 
+# Third  column : C_Q = quantum capacitance
+# Fourth column : -\mu^{\eta_{\alpha\alpha}} * C_Q
+# Fifth  column : \sum_\kappa (\Omega*\rho^{(1,\alpha)}_{\kappa\alpha} + Z_\kappa)
+#                 where Z_\kappa is the pseudocharge of ion \kappa, and Omega = 387.102 bohr^3
+#
+-0.1000   -0.618107    8.132716    5.026889    5.026878
+-0.0750   -0.616803    7.332905    4.522957    4.522722
+-0.0500   -0.615264    6.171689    3.797216    3.797099
+-0.0250   -0.613198    4.287056    2.628814    2.629015
+-0.0125   -0.611595    2.754737    1.684784    1.685119
+ 0.0000    0.000000    0.000012    0.000000    0.000152
+ 0.0125   -0.530767    3.602856    1.912277    1.912508
+ 0.0250   -0.530166    6.041054    3.202762    3.202814
+ 0.0500   -0.529372    9.557239    5.059337    5.059601
+ 0.0750   -0.528778   12.086709    6.391190    6.391486
+ 0.1000   -0.528281   14.038806    7.416435    7.416729

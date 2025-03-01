@@ -1,0 +1,12 @@
+# First  column : N, where NxNxN gives the number of k points
+# Second column : \mu^{\eta_{\alpha\alpha}} = derivative of Fermi level (\mu) wrt strain (\eta) 
+# Third  column : C_Q = quantum capacitance
+# Fourth column : -\mu^{\eta_{\alpha\alpha}} * C_Q
+#
+8    -0.683584   19.006569   12.992577 
+10   -0.684142   22.469421   15.372278
+12   -0.688289   22.320964   15.363270
+14   -0.687992   21.714095   14.939117
+16   -0.686778   21.892704   15.035427
+18   -0.687190   21.960716   15.091194
+20   -0.687318   21.907267   15.057260

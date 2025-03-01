@@ -1,0 +1,14 @@
+# First  column : N, where NxNxN gives the number of k points
+# Second column : \mu^{\eta_{\alpha\alpha}} = derivative of Fermi level (\mu) wrt strain (\eta) 
+# Third  column : C_Q = quantum capacitance
+# Fourth column : Z^{stat,\beta}_{\kappa\alpha} = long-wavelength expansion of the charge response to
+#                                                 a phonon (\kappa\alpha), at first order in q_\beta
+#
+8    -0.900161    6.989734    6.400405
+12   -0.893627    7.989440    7.164024
+16   -0.895313    7.772515    6.978119
+20   -0.895404    8.052426    7.205674
+24   -0.895441    7.988976    7.157269
+28   -0.895386    8.008941    7.170931
+36   -0.895400    8.002908    7.159794
+40   -0.895404    8.001740    7.157821

@@ -1,0 +1,14 @@
+# SrTiO3(-0.05)
+#
+# First  column : N, where NxNxN gives the number of k points
+# Second column : \mu^{\eta_{\alpha\alpha}} = derivative of Fermi level (\mu) wrt strain (\eta) 
+# Third  column : C_Q = quantum capacitance
+# Fourth column : -\mu^{\eta_{\alpha\alpha}} * C_Q
+#
+8    -0.616432    0.615218    4.193789
+10   -0.614197    6.234875    3.829444
+12   -0.614823    6.096420    3.748220
+14   -0.615315    6.151309    3.784993
+16   -0.615264    6.171689    3.797216
+18   -0.615216    6.168152    3.794747
+20   -0.615218    6.166300    3.793621

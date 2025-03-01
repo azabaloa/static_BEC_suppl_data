@@ -1,0 +1,29 @@
+# SrTiO3(-0.05)
+#
+# First column  : N, where NxNxN is the number of k points used in the calculations
+#
+# \Omega is the volume of the unit cell (\Omega = 387.102 bohr^3)
+# \rho^{(1,\beta)}_{\kappa\alpha} is the long-wavelength expansion of the electronic 
+# contribution to the charge response to a phonon (\kappa\alpha), at first order in q_\beta
+#
+# Second  column : \Omega * \rho^{(1,\alpha)}_{Sr \alpha}
+# Third   column : \Omega * \rho^{(1,\alpha)}_{Ti \alpha}
+# Fourth  column : \Omega * \rho^{(1,\alpha)}_{O1 \alpha}
+# Fifth   column : \Omega * \rho^{(1,\alpha)}_{O2 \alpha}
+# Sixth   column : \Omega * \rho^{(1,\alpha)}_{O3 \alpha}
+# Seventh column : \Omega * \rho^{(1,\alpha)}_{\alpha} = 
+#                  \Omega * \sum_{\kappa} \rho^{(1,\alpha)}_{\kappa\alpha}
+# Eighth  column : \sum_\kappa (\Omega*\rho^{(1,\alpha)}_{\kappa\alpha} + Z_\kappa)
+#
+# \rho^{(1,\alpha)}_{\kappa\alpha} is obtained via analytic differentiation in q, as explained
+# in Section III C in the manuscript.
+#
+# Z_\kappa = pseudocharge of ion \kappa
+#
+8    -6.171865   -5.871851   -7.505261   -7.505263   -8.824378   -35.878618   4.171382
+10   -6.276158   -5.914533   -7.526115   -7.526116   -8.975428   -36.218350   3.831649
+12   -6.301314   -5.894163   -7.534964   -7.534963   -9.032127   -36.297531   3.752468
+14   -6.291355   -5.883409   -7.533659   -7.533659   -9.022450   -36.264531   3.785468
+16   -6.287650   -5.884371   -7.532648   -7.532649   -9.015583   -36.252901   3.797098
+18   -6.288285   -5.885587   -7.532694   -7.532694   -9.015828   -36.255089   3.794911
+20   -6.288622   -5.885589   -7.532773   -7.532773   -9.016388   -36.256144   3.793856
